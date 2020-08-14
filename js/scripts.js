@@ -6,4 +6,5 @@ $(document).ready(function () {
   $("language-quiz").submit(function (event) {
     const answer = parseInt($("secret_question").val());
   });
+  event.preventDefault
 });

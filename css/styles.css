@@ -8,3 +8,6 @@
 .show {
   display: block
 }
+.answer-wrapper {
+  display: none
+}

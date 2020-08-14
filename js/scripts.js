@@ -4,23 +4,24 @@ $(document).ready(function () {
   });
 
   $("language-quiz").submit(function (event) {
-    const answer = parseInt($("secret_question").val());
-  });
+    event.preventDefault();
+    const answer = ($("secret_question").val());
 
-  if (value === "1") {
-    $("#answer-1").show();
-  }
-  if (value === "2") {
-    $("#answer-2").show();
-  }
-  if (value === "3") {
-    $("#answer-3").show();
-  }
-  if (value === "4") {
-    $("#answer-4").show();
-  }
-  if (value === "5") {
-    $("#answer-5").show();
-  }
-  event.preventDefault();
+    let result;
+    if (value === "1") {
+      $("#answer-1").show();
+    }
+    else if (value === "2") {
+      $("#answer-2").show();
+    }
+    else if (value === "3") {
+      $("#answer-3").show();
+    }
+    else if (value === "4") {
+      $("#answer-4").show();
+    }
+    else if (value === "5") {
+      $("#answer-5").show();
+    }
+  });
 });

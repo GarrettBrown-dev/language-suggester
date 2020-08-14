@@ -24,6 +24,5 @@ $(document).ready(function () {
     else if (answer === 5) {
       $("#answer-5").show();
     }
-
   });
 });

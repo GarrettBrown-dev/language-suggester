@@ -20,34 +20,34 @@
         <a class="btn btn-primary btn-lg" href="#" role="button">Get started!</a>
       </p>
     </div>
-    <form id="language-quiz">
-      <div class="form-group">
-        <label for="exampleFormControlInput1">Name</label>
-        <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
-      </div>
-      <div class="form-group">
-        <label for="exampleFormControlSelect1">What interests you about programming?</label>
-        <select class="form-control" id="">
-          <option>The applications!</option>
-          <option>The career opportunities!</option>
-          <option>The code editors!</option>
-          <option>The artistic design!</option>
-          <option>The way hackers do it in movies!</option>
-        </select>
-      </div>
-      <div class="form-group">
-        <label for="exampleFormControlSelect1">What which of these options interests you the most?</label>
-        <select class="form-control" id="secret_question">
-          <option value=1>Using my artistic design to create unique page elements!</option>
-          <option value=2>Creating the frameworks for websites!</option>
-          <option value=3>Creating server-side structures!</option>
-          <option value=4>Making apps for phones, tablets, etc.!</option>
-          <option value=5>Making video games!</option>
-        </select>
+    <div class="box-1">
+      <form id="language-quiz">
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">What interests you about programming?</label>
+          <select class="form-control">
+            <option>The applications!</option>
+            <option>The career opportunities!</option>
+            <option>The code editors!</option>
+            <option>The artistic design!</option>
+            <option>The way hackers do it in movies!</option>
+          </select>
+        </div>
+        <div class="box-2">
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">What which of these options interests you the most?</label>
+            <select class="form-control" id="secret_question">
+              <option value=1>Using my artistic design to create unique page elements!</option>
+              <option value=2>Creating the frameworks for websites!</option>
+              <option value=3>Creating server-side structures!</option>
+              <option value=4>Making apps for phones, tablets, etc.!</option>
+              <option value=5>Making video games!</option>
+            </select>
+          </div>
+        </div>
         <div class="form-group">
           <label for="exampleFormControlSelect1">What company interests you most? Which would you enjoy working
             for?</label>
-          <select class="form-control" id="exampleFormControlSelect1">
+          <select class="form-control">
             <option>Google</option>
             <option>Apple</option>
             <option>Microsoft</option>
@@ -56,7 +56,7 @@
           </select>
           <div class="form-group">
             <label for="exampleFormControlSelect1">Which of these locations would you say suits you?</label>
-            <select class="form-control" id="exampleFormControlSelect1">
+            <select class="form-control">
               <option>Phoenix, AZ</option>
               <option>Seattle, WA</option>
               <option>New York, NY</option>
@@ -66,7 +66,7 @@
             <div class="form-group">
               <label for="exampleFormControlSelect1">What do you find most important in a website or
                 application?</label>
-              <select class="form-control" id="exampleFormControlSelect1">
+              <select class="form-control">
                 <option>It's flashy and unique to look at.</option>
                 <option>It's easy to use.</option>
                 <option>It has no bugs.</option>
@@ -76,23 +76,24 @@
             </div>
             <button type="submit" class="btn btn-primary">Submit!</button>
           </div>
-    </form>
-    <div class="container" id="results">
-      <div class="answer-wrapper" id="answer-1">
-        <p> Alright <span class="name">,</span> you should look into Javascript!</p>
+      </form>
+      <div class="container" id="results">
+        <div class="answer-wrapper" id="answer-1">
+          <p> Cool! You should look into Javascript!</p>
+        </div>
+        <div class="answer-wrapper" id="answer-2">
+          <p>Fantastic! You should look into Python!</p>
+        </div>
+        <div class="answer-wrapper" id="answer-3">
+          <p>Awesome! You should look into Ruby!</p>
+        </div>
+        <div class="answer-wrapper" id="answer-4">
+          <p>Alright! You should look into Swift!</p>
+        </div>
+        <div class="answer-wrapper" id="answer-5">
+          <p>Sweet! you should look into C#!</p>
+        </div>
       </div>
-      <div class="answer-wrapper" id="answer-2">
-        <p>Alright <span class="name">,</span> you should look into Python!</p>
-      </div>
-      <div class="answer-wrapper" id="answer-3">
-        <p>Alright <span class="name">,</span> you should look into Ruby!</p>
-      </div>
-      <div class="answer-wrapper" id="answer-4">
-        <p>Alright <span class="name">,</span> you should look into Swift!</p>
-      </div>
-      <div class="answer-wrapper" id="answer-5">
-        <p>Alright <span class="name">,</span> you should look into C#!</p>
-      </div>
-      <div text-output: result </body>
+</body>
 
 </html>

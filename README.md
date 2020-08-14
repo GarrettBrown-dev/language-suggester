@@ -1,6 +1,6 @@
 # _Language Suggestion Page!_
 
-#### _Portfolio of Garrett Brown's projects as well as brief info., 08/14/2020_
+#### _A site for suggesting programming languages, 08/14/2020_
 
 #### By _**Garrett Brown**_
 

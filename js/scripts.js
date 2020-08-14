@@ -7,7 +7,7 @@ $(document).ready(function () {
     const answer = parseInt($("secret_question").val());
   });
 
-  if (answer === "1") {
+  if (value === "1") {
     $("#answer-1").show();
   }
   event.preventDefault();

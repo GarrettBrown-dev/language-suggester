@@ -3,6 +3,12 @@
 }
 #answer-1, #answer-2,
 #answer-3, #answer-4,
-#answer-5{
+#answer-5 {
   display: none
+}
+
+#answer-1, #answer-2,
+#answer-3, #answer-4,
+#answer-5 {
+  display: block
 }

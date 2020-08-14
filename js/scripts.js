@@ -4,24 +4,24 @@ $(document).ready(function () {
   });
 
   $("language-quiz").submit(function (event) {
-    event.preventDefault();
     const answer = ($("secret_question").val());
 
     let result;
-    if (value === "1") {
+    if (value === 1) {
       $("#answer-1").show();
     }
-    else if (value === "2") {
+    else if (value === 2) {
       $("#answer-2").show();
     }
-    else if (value === "3") {
+    else if (value === 3) {
       $("#answer-3").show();
     }
-    else if (value === "4") {
+    else if (value === 4) {
       $("#answer-4").show();
     }
-    else if (value === "5") {
+    else if (value === 5) {
       $("#answer-5").show();
     }
+    event.preventDefault();
   });
 });

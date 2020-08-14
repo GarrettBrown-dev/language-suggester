@@ -20,3 +20,6 @@
   box-sizing: border-box;
   float: center
 }
+.background-image {
+   background-image: "img/space.jpg";
+}

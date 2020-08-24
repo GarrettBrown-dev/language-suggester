@@ -4,12 +4,10 @@ $(document).ready(function () {
   $("a.btn").click(function () {
     $("#language-quiz").show();
   });
-
   $("button.btn").click(function (event) {
     event.preventDefault();
     const answer = parseInt($("#secret_question").val());
     if (answer === 1) {
-      console.log("answer");
       $("#answer-1").show();
     }
     else if (answer === 2) {

@@ -20,3 +20,6 @@
   box-sizing: border-box;
   float: center
 }
+#answer {
+  display: none
+}
